@@ -16,7 +16,7 @@ class Atm_project
     {
         System.out.println(" ");
         System.out.println("                                        "+java.time.LocalDate.now()+" *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* JMD Bank");
-        System.out.println("                                        *-*-*-*-*- Welcome To The Registration Page *-*-*-*-*-");
+        System.out.println("                                        *-*-*-*-*- Welcome To The Registration PAGE *-*-*-*-*-");
         System.out.println("                                        *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
         Console con = System.console();
         Scanner sc1 = new Scanner(System.in);
