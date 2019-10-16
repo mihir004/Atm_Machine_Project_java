@@ -15,7 +15,7 @@ class Atm_project
     public static void Sign_up()
     {
         System.out.println(" ");
-        System.out.println("                                        "+java.time.LocalDate.now()+" *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* JMD Bank");
+        System.out.println("                                        "+java.time.LocalDate.now()+" *-*-*-*- *-*-*-*-*-*-*-*-*-*-*-*-* JMD Bank");
         System.out.println("                                        *-*-*-*-*- Welcome To The Registration Page *-*-*-*-*-");
         System.out.println("                                        *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
         Console con = System.console();
