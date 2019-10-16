@@ -32,7 +32,7 @@ class Atm_project
         System.out.print("                                                      Enter Your Address : ");
         address=sc1.nextLine();
         System.out.println(" ");
-        System.out.print("                                                      Enter Your City : ");
+        System.out.print("                                                      Enter Your current City : ");
         city=sc1.nextLine();
         System.out.println(" ");
         System.out.print("                                                      Enter Your Pincode : ");
@@ -237,7 +237,7 @@ class Atm_project
         System.out.println(" ");
         System.out.println("                                        Pincode : "+pincode);
         System.out.println(" ");
-        System.out.println("                                        Branch (City) : "+city);
+        System.out.println("                                        Branch (City) : "+City);
     }
     public static void main(String args[]) 
     {
