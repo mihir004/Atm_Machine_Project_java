@@ -14,9 +14,11 @@ class Atm_project
     public static float amount;
     public static void Sign_up()
     {
-        System.out.println(" ");
+        System.out.println(" "); 
         System.out.println("                                        "+java.time.LocalDate.now()+" *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* JMD Bank");
         System.out.println("                                        *-*-*-*-*- Welcome To The Registration PAGE *-*-*-*-*-");
+        System.out.println("                                        "+java.time.LocalDate.now()+" *-*-*-*- *-*-*-*-*-*-*-*-*-*-*-*-* JMD Bank");
+        System.out.println("                                        *-*-*-*-*- Welcome To The Registration Page *-*-*-
         System.out.println("                                        *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-");
         Console con = System.console();
         Scanner sc1 = new Scanner(System.in);
@@ -32,7 +34,7 @@ class Atm_project
         System.out.print("                                                      Enter Your Address : ");
         address=sc1.nextLine();
         System.out.println(" ");
-        System.out.print("                                                      Enter Your City : ");
+        System.out.print("                                                      Enter Your current City : ");
         city=sc1.nextLine();
         System.out.println(" ");
         System.out.print("                                                      Enter Your Pincode : ");
@@ -237,7 +239,7 @@ class Atm_project
         System.out.println(" ");
         System.out.println("                                        Pincode : "+pincode);
         System.out.println(" ");
-        System.out.println("                                        Branch (City) : "+city);
+        System.out.println("                                        Branch (City) : "+City);
     }
     public static void main(String args[]) 
     {
